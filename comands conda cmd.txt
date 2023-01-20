@@ -1,0 +1,10 @@
+# para habilitar ambientes de conda para jupyter lab y jupyter notebook
+
+conda install -c conda-forge nb_conda_kernels
+
+conda activate cenv
+
+(cenv)$ conda install ipykernel
+(cenv)$ conda deactivate    
+
+jupyter lab / jupyter notebook
